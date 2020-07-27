@@ -3,11 +3,12 @@ import ReactDOM from "react-dom";
 import "./index.css";
 // import App from './App';
 import * as serviceWorker from "./serviceWorker";
-import ComponentState from "./ComponentState";
+// import ComponentState from "./ComponentState";
+import SideEffect from "./SideEffect";
 
 ReactDOM.render(
   <React.StrictMode>
-    <ComponentState />
+    <SideEffect />
   </React.StrictMode>,
   document.getElementById("root")
 );
